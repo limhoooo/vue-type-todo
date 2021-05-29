@@ -49,7 +49,7 @@ export default Vue.extend({
   components: { TodoInput, TodoListItem },
   data() {
     return {
-      todoText: "",
+      todoText: "" as string,
       todoItems: [] as Todo[],
     };
   },
